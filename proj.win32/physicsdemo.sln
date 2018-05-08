@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "physicsdemo", "..\physicsdemo\vs\physicsdemo.vcxproj", "{8D784C9F-9626-45D3-84C0-ABED65189276}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "physicsdemo", "..\src\vs\physicsdemo.vcxproj", "{8D784C9F-9626-45D3-84C0-ABED65189276}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
