@@ -5,3 +5,12 @@
 
 # Builds
 *.apk
+*.exe
+
+# Exclude everything except the solution file
+proj.win32/*
+!proj.win32/*.sln
+
+# Exclude build binaries
+physicsdemo/vs/Debug.*
+physicedemo/vs/Release.*
