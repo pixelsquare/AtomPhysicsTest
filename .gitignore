@@ -12,5 +12,5 @@ proj.win32/*
 !proj.win32/*.sln
 
 # Exclude build binaries
-physicsdemo/vs/Debug.*
-physicedemo/vs/Release.*
+src/vs/Debug.*
+src/vs/Release.*
