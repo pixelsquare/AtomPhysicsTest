@@ -12,6 +12,7 @@
 
 #include "StdC.h"
 #include "PlatformGL.h"
+#include "PlatformConfig.h"
 #include "PlatformMacros.h"
 
 #include "Camera.h"
