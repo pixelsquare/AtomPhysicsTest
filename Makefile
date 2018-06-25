@@ -1,6 +1,6 @@
 CXX = g++ -std=c++11
 CXXFLAGS = -shared -g -Wall -Wno-unknown-pragmas -fPIC -Wno-unused-function
-ATOMFLAGS = -L/src/atom/lib -I/src/atom/include -latomengine
+ATOMFLAGS = -L./src/atom/lib -I./src/atom/include -latomengine
 
 SRC_DIR := src/classes
 OBJ_DIR := obj
