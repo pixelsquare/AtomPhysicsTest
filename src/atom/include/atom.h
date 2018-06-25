@@ -10,10 +10,9 @@
 #ifndef _ATOM_ENGINE_H_
 #define _ATOM_ENGINE_H_
 
-#include "StdC.h"
-#include "PlatformGL.h"
-#include "PlatformConfig.h"
-#include "PlatformMacros.h"
+//#include "StdC.h"
+//#include "PlatformGL.h"
+//#include "PlatformMacros.h"
 
 #include "Camera.h"
 #include "Collision.h"
