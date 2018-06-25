@@ -1,4 +1,4 @@
-#include "atom.h"
+#include "../atom/include/atom.h"
 using namespace AtomEngine;
 
 Light* light = new Light;
