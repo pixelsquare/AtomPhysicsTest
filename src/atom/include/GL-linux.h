@@ -13,7 +13,7 @@
 #include "PlatformMacros.h"
 
 #if TARGET_PLATFORM == PLATFORM_LINUX
-#include "../gl/glut32/include/glut.h"
+#include "../../gl/glut32/include/glut.h"
 #endif // TARGET_PLATFORM == PLATFORM_LINUX
 
 #endif // _ATOM_GL_LINUX_H_

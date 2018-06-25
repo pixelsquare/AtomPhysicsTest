@@ -14,7 +14,7 @@
 
 #if TARGET_PLATFORM == PLATFORM_WIN32
 #include <Windows.h>
-#include "../gl/glut32/include/glut.h"
+#include "../../gl/glut32/include/glut.h"
 #endif // TARGET_PLATFORM == PLATFORM_WIN32
 
 #endif // _ATOM_GL_WIN32_H_
