@@ -13,7 +13,9 @@
 #include "PlatformMacros.h"
 
 #if TARGET_PLATFORM == PLATFORM_WIN32
-#include "GL-win32.h"
-#endif // TARGET_PLATFORM == PLATFORM_WIN32
+    #include "GL-win32.h"
+#elif TARGET_PLATFORM == PLATFORM_LINUX
+    #include "GL-linux.h"
+#endif
 
 #endif // _ATOM_PLATFORM_GL_H_

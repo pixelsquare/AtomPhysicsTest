@@ -29,7 +29,7 @@ struct Window
 	}
 
 	int windowHandle;
-	char *name;
+	const char *name;
 	int width;
 	int height;
 	Color4 color;

@@ -14,12 +14,15 @@
 
 #if TARGET_PLATFORM == PLATFORM_WIN32
 
+#if defined(_WIN32) && defined(WINDOWS)
 #include <BaseTsd.h>
 
 #ifndef __SSIZE_T
 #define __SSIZE_T
 typedef SSIZE_T ssize_t;
 #endif // __SSIZE_T
+#endif
+
 
 #include <float.h>
 
@@ -32,16 +35,19 @@ typedef SSIZE_T ssize_t;
 
 #endif // __MINGW32__
 
-#include <math.h>
+#include <cmath>
 #include <string.h>
-#include <stdarg.h>
 #include <stdio.h>
+#include <time.h>
+
+#if defined(_WIN32) || defined(WINDOWS)
+#include <stdarg.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <conio.h>
-#include <time.h>
 #include <Windows.h>
 #include <MMSystem.h>
+#endif
 
 #ifndef M_PI
 #define M_PI      3.14159265358
@@ -56,10 +62,12 @@ typedef SSIZE_T ssize_t;
 #include <sys/time.h>
 #endif // __MINGW32__
 
+#if defined(_WIN32) && defined(WINDOWS)
 #if _MSC_VER >= 1600 || defined(__MINGW32__)
 #include <stdint.h>
 #else
 #include "platform/win32/compat/stdint.h"
+#endif
 #endif
 
 

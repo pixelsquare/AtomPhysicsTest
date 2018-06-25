@@ -15,7 +15,7 @@
 ATOM_BEGIN
 
 /* Atom engine pre-made special keys */
-enum ATOMAPI SpecialKey
+enum SpecialKey
 {
     AE_F1 = 1, AE_F2 = 2, AE_F3 = 3, AE_F4 = 4, AE_F5 = 5, AE_F6 = 6,
     AE_F7 = 7, AE_F8 = 8, AE_F9 = 9, AE_F10 = 10, AE_F11 = 11, AE_F12 = 12,
@@ -25,7 +25,7 @@ enum ATOMAPI SpecialKey
 };
 
 /* Options for mouse clicking */
-enum ATOMAPI MouseType
+enum MouseType
 {
     Left = 0,
     Middle = 1,

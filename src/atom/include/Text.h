@@ -13,7 +13,7 @@
 
 ATOM_BEGIN
 
-enum ATOMAPI FontSize 
+enum FontSize 
 {
 	SMALL_FONT,
 	MEDIUM_FONT,

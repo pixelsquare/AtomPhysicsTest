@@ -48,7 +48,7 @@ public:
 
 	ObjectLoader& operator=(const ObjectLoader& rhs);
 
-	void LoadObject(char* filename);
+	void LoadObject(const char* filename);
 	void DrawObject();
 
 private:

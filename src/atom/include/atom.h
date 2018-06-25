@@ -10,6 +10,10 @@
 #ifndef _ATOM_ENGINE_H_
 #define _ATOM_ENGINE_H_
 
+#include "StdC.h"
+#include "PlatformGL.h"
+#include "PlatformMacros.h"
+
 #include "Camera.h"
 #include "Collision.h"
 #include "GameObject.h"
@@ -26,10 +30,6 @@
 #include "Vector3f.h"
 #include "Color3.h"
 #include "Color4.h"
-
-#include "PlatformGL.h"
-#include "PlatformMacros.h"
-#include "StdC.h"
 
 /* generic data types defined in atom engine manner */
 typedef unsigned int    AEenum;

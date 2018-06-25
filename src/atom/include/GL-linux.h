@@ -7,14 +7,13 @@
 *          pixelsquarelabs@gmail.com
 */
 
-#ifndef _ATOM_GL_WIN32_H_
-#define _ATOM_GL_WIN32_H_
+#ifndef _ATOM_GL_LINUX_H_
+#define _ATOM_GL_LINUX_H_
 
 #include "PlatformMacros.h"
 
-#if TARGET_PLATFORM == PLATFORM_WIN32
-#include <Windows.h>
+#if TARGET_PLATFORM == PLATFORM_LINUX
 #include "../gl/glut32/include/glut.h"
-#endif // TARGET_PLATFORM == PLATFORM_WIN32
+#endif // TARGET_PLATFORM == PLATFORM_LINUX
 
-#endif // _ATOM_GL_WIN32_H_
+#endif // _ATOM_GL_LINUX_H_

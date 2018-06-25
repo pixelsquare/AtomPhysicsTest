@@ -31,7 +31,7 @@ void Update() {
 		fall = true;
 	}
 
-	ball->GetVelocity().Print();
+	//ball->GetVelocity().Print();
 	ball->UseGravity(fall);
 	
 	ball->DrawPrimitive(AE_SOLID_SPHERE);
@@ -42,7 +42,7 @@ void Update() {
 	//atomCameraLookAt(ball->GetPosition().X, 10.0f, 0.0f);
 }
 
-int main(int argc, char** argv) {
+int main(int argc, char *argv[]) {
 	atomStartFunc(&Start);
 	atomUpdateFunc(&Update);
 	//atomEditMode(true);
