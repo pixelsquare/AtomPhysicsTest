@@ -10,7 +10,7 @@
 #ifndef _ATOM_PLATFORM_MACROS_H_
 #define _ATOM_PLATFORM_MACROS_H_
 
-#include "PlatformConfig.h"
+// #include "PlatformConfig.h"
 #include "PlatformDefine.h"
 
 #ifdef __cplusplus
